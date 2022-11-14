@@ -1,0 +1,160 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi there", "How are you", "Is anyone there?","Hey","Hola", "Hello", "Good day"],
+         "responses": ["Hello, thanks for asking", "Good to see you again", "Hi there, how can I help?"],
+         "context": [""]
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
+         "responses": ["See you,wacth!", "Have a nice ride!!!", "Bye! Drive Safe!!."],
+         "context": [""]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+         "responses": ["Happy to help!", "Any time!", "My pleasure!!"],
+         "context": [""]
+        },
+        {"tag": "noanswer",
+         "patterns": [],
+         "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand"],
+         "context": [""]
+        },
+        {"tag": "options",
+         "patterns": ["How you could help me?", "What you can do?", "What help you provide?", "How you can be helpful?", "What support is offered"],
+         "responses": ["I can guide you to select the best car suited to your needs!! You just have to tell me your requirements..! Let's get started with the type of car you looking for. Shall we?(TYPE-'SUV','SEDAN','HATCHBACK')"],
+         "context": [""]
+        },
+    {"tag": "SUV",
+         "patterns": ["Tell me about SUV cars?", "What are options in SUV", "Is SUV a suited to Indian conditions?", " I choose SUV ", "select SUV" ],
+         "responses": ["SUV type cars are best suited for India's onraod conditions.... Some of the best companies manufacturing SUV cars are TATA, MAHINDRA and TOYOTA(mention company NAME with SUV)"],
+         "context": [""]
+        },
+    
+        {"tag": "TATA_SUV",
+         "patterns": ["Tell me about TATA's SUV cars?", "What are options in TATA's SUVs ?", "Is TATA a good brand for SUVs?", " I choose Tata's SUVs ", "select TATA'SUVs" ],
+         "responses": ["TATA offers some high build quality cars like PUNCH,NEXON,HARRIER,SAFARI and they also over EV models about .. "],
+         "context": [""]
+        },
+    {"tag": "HYUNDAI_SUV",
+         "patterns": ["Tell me about HYUNDAI's SUV cars?", "What are options in HYUNDAI's SUVs ?", "Is HYUNDAI a good brand for SUVs?", " I choose HYUNDAI's SUVs ", "select HYUNDAI'SUVs" ],
+         "responses": ["HYUNDAI offers some top of line SUVs like CRETA , ALZCAR , VENUE and TUSCON  .. "],
+         "context": [""]
+        },
+    {"tag": "HONDA_SUV",
+         "patterns": ["Tell me about HONDA's SUV cars?", "What are options in HONDA's SUVs ?", "Is HONDA a good brand for SUVs?", " I choose HONDA's SUVs ", "select HONDA'SUVs" ],
+         "responses": ["HONDA offers cars like WR-V and BR-V"],
+         "context": [""]
+        },
+    
+    {"tag": "SUZUKI_SUV",
+         "patterns": ["Tell me about SUZUKI's SUV cars?", "What are options in SUZUKI's SUVs ?", "Is SUZUKI a good brand for SUVs?", " I choose SUZUKI's SUVs ", "select SUZUKI'SUVs" ],
+         "responses": ["SUZUKI offers some high efficient cars like GRAND VITARA , BREZZA , ERTIGA ,XL6 .. "],
+         "context": [""]
+        },
+    
+        {"tag": "MAHINDRA_SUV",
+         "patterns": ["Tell me about MAHINDRA's SUV cars?", "What are options in MAHINDRA's SUVs ?", "Is MAHINDRA a good brand for SUVs?", " I choose MAHINDRA's SUVs ", "select MAHINDRA's SUVs"  ],
+         "responses": ["MAHINDRA provides segment leadings cars like XUV300,THAR,XUV700,SCORPIO and they have also launched EV model of XUV300"],
+         "context": [""]
+        },
+    
+    {"tag": "TOYOTA_SUV",
+         "patterns": ["Tell me about TOYOTA's SUV cars?", "What are options in TOYOTA's SUVs ?", "Is TOYOTA a good brand for SUVs?", " I choose TOYOTA's SUVs ", "select TOYOTA's SUVs"  ],
+         "responses": ["TOYOTA offers most reliable cars of the segment like INNOVA,FORTUNER and LEGENDER"],
+         "context": [""]
+        },
+    
+     {"tag": "HATCHBACK",
+         "patterns": ["Tell me about HATCHBACK cars?", "What are options in HATCHBACK", "Is HATCHBACK a suited to Indian conditions?", " I choose HATCHBACK ", "select HATCHBACK" ],
+         "responses": ["The HATCHBACK provides all the basic needs a common man needs...Some of the best companies manufacturing HATCHBACK cars are HYUNDAI, MARUTI SUZUKI and (mention company NAME with HATCHBACK)"],
+         "context": [""]
+        },
+     {"tag": "HYUNDAI_HATCHBACK",
+         "patterns": ["Tell me about HYUNDAI's HATCHBACK cars?", "What are options in HYUNDAI's HATCHBACKs ?", "Is HYUNDAI a good brand for HATCHBACKs?", " I choose HYUNDAI's HATCHBACKs ", "select HYUNDAI's HATCHBACKs"  ],
+         "responses": ["HYUNDAI offers some of best HATCHBACK like GRAND I10 NIOS , I20 and EV option as KONA"],
+         "context": [""]
+        },
+     {"tag": "SUZUKI_HATCHBACK",
+         "patterns": ["Tell me about SUZUKI's HATCHBACK cars?", "What are options in SUZUKI's HATCHBACKs ?", "Is SUZUKI a good brand for HATCHBACKs?", " I choose SUZUKI's HATCHBACKs ", "select SUZUKI's HATCHBACKs"  ],
+         "responses": ["SUZUKI offers some of best HATCHBACK like ALTO, WAGON R, SWIFT, IGNIS, BALENO"],
+         "context": [""]
+        },
+    {"tag": "TATA_HATCHBACK",
+         "patterns": ["Tell me about TATA's HATCHBACK cars?", "What are options in TATA's HATCHBACKs ?", "Is TATA a good brand for HATCHBACKs?", " I choose TATA's HATCHBACKs ", "select TATA's HATCHBACKs"  ],
+         "responses": ["TATA offers some of best HATCHBACK like TAIGO , ALTROZ and their EV models"],
+         "context": [""]
+        },
+    {"tag": "HONDA_HATCHBACK",
+         "patterns": ["Tell me about HONDA's HATCHBACK cars?", "What are options in HONDA's HATCHBACKs ?", "Is HONDA a good brand for HATCHBACKs?", " I choose HONDA's HATCHBACKs ", "select HONDA's HATCHBACKs"  ],
+         "responses": ["HONDA offers only JAZZ in Indian market"],
+         "context": [""]
+        },
+    {"tag": "MAHINDRA&TOYOTA_HATCHBACK",
+         "patterns": ["Tell me about MAHINDRA's HATCHBACK cars?", "What are options in MAHINDRA's HATCHBACKs ?", "Is MAHINDRA a good brand for HATCHBACKs?", " I choose MAHINDRA's HATCHBACKs ", "select MAHINDRA's HATCHBACKs", "Tell me about TOYOTA's HATCHBACK cars?", "What are options in TOYOTA's HATCHBACKs ?", "Is  TOYOTA a good brand for HATCHBACKs?", " I choose  TOYOTA's HATCHBACKs ", "select  TOYOTA's HATCHBACKs"  ],
+         "responses": ["both TOYOTA and MAHINDRA is only focusing on SUVs and doesn't offer any HATCHBACKs in Indian market"],
+         "context": [""]
+        },
+    {"tag": "SEDAN",
+         "patterns": ["Tell me about SEDAN cars?", "What are options in SEDAN", "Is a SEDAN suited to Indian conditions?", " I choose SEDAN ", "select SEDAN" ],
+         "responses": ["SEDAN cars most comfortable type of cars on the road..Some of comapanies offering sedan cars are HONDA,HYUNDAI and MARUTI SUZUKI(mention company NAME with SEDAN)"],
+         "context": [""]
+        },
+     {"tag": "HYUNDAI_SEDAN",
+         "patterns": ["Tell me about HYUNDAI's SEDAN cars?", "What are options in HYUNDAI's SEDANs ?", "Is HYUNDAI a good brand for SEDANs?", " I choose HYUNDAI's SEDANs ", "select HYUNDAI's SEDANs"  ],
+         "responses": ["HYUNDAI offers VERNA the segment leading car and also offers other cars like AURA and ELANTRA"],
+         "context": [""]
+        },
+     {"tag": "HONDA_SEDAN",
+         "patterns": ["Tell me about HONDA's SEDAN cars?", "What are options in HONDA's SEDANs ?", "Is HONDA a good brand for SEDANs?", " I choose HONDA's SEDANs ", "select HONDA's SEDANs"  ],
+         "responses": ["HONDA has to offer the best car in segment the CITY and also offers AMAZE ,CIVIC and ACCORD "],
+         "context": [""]
+        },
+    {"tag": "SUZUKI_SEDAN",
+         "patterns": ["Tell me about SUZUKI's SEDAN cars?", "What are options in SUZUKI's SEDANs ?", "Is SUZUKI a good brand for SEDANs?", " I choose SUZUKI's SEDANs ", "select SUZUKI's SEDANs"  ],
+         "responses": ["SUZUKI offers some of best mileage and space oriented cars like DEZIRE and CIAZ"],
+         "context": [""]
+        },
+    {"tag": "TATA_SEDAN",
+         "patterns": ["Tell me about TATA's SEDAN cars?", "What are options in TATA's SEDANs ?", "Is TATA a good brand for SEDANs?", " I choose TATA's SEDANs ", "select TATA's SEDANs"  ],
+         "responses": ["TATA doesn't have much options in SEDAN they have only TIGOR and its EV model"],
+         "context": [""]
+        },
+    {"tag": "MAHINDRA_SEDAN",
+         "patterns": ["Tell me about MAHINDRA's SEDAN cars?", "What are options in MAHINDRA's SEDANs ?", "Is MAHINDRA a good brand for SEDANs?", " I choose MAHINDRA's SEDANs ", "select MAHINDRA's SEDANs"  ],
+         "responses": ["Sadly MAHINDRA isn't offering any SEDAN cars in the market"],
+         "context": [""]
+        },
+     {"tag": "TOYOTA_SEDAN",
+         "patterns": ["Tell me about TOYOTA's SEDAN cars?", "What are options in TOYOTA's SEDANs ?", "Is TOYOTA a good brand for SEDANs?", " I choose TOYOTA's SEDANs ", "select TOYOTA's SEDANs"  ],
+         "responses": ["TOYOTA offers CAMRY , COROLLA, YARIS and BELTA in SEDAN segment"],
+         "context": [""]
+        },
+    
+        {"tag": "specific",
+         "patterns": ["honda", "suzuki", "maruti suzuki", "hyundai", "toyota","tata","mahindra" ],
+         "responses": ["Please be more specific ! Type company name with type of car example-(TATA SUV)"],
+         "context": [""]
+        },
+            {"tag": "companies",
+         "patterns": ["how many companies do you know?", "how many companies ", "name all the companies you know" ],
+         "responses": ["I know about 6 most popular brands across India HYUNDAI , HONDA , TATA , MAHINDRA , MARUTI SUZUKI, TOYOTA"],
+         "context": [""]
+        },
+    {"tag": "other_companies",
+         "patterns": ["why only 6 companies", "what about other companies ", "any other companies?","other comapnies" ],
+         "responses": ["Well there are other car manufacturing comapanies in India but these 6 companies shares roughly 85% of Indian automobile industry that's why ...!!"],
+         "context": [""]
+        },
+    
+
+        
+       
+        
+       
+        {"tag": "search_hospital_by_type",
+         "patterns": [],
+         "responses": ["Loading hospital details"],
+         "context": [""]
+        }
+   ]
+}
